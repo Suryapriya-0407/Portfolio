@@ -1,0 +1,823 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-size: 16px; */
+}
+
+.location a {
+    text-decoration: none;
+}
+#mainbox{
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .6s;
+   }
+   .sidemenu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: #EAF0E6;
+    z-index: 2;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all .5s;
+   }
+   .sidemenu a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+  
+    color: #999;
+    display: block;
+    font-family: "Roboto", Sans-serif;
+font-size: 12px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+   }
+   /* .sidemenu a:hover{
+     color: white;
+   } */
+   .sidemenu .closebtn{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+    color: ;
+   }
+h1 a{
+    font-size: 2.5rem;
+    color: #62A379;
+    font-weight: 600;
+}
+.location a{
+    color: white;
+}
+.menubar i{
+    font-size: 25px;
+    padding-left: 5px;
+    color:#62A379 ;
+
+}
+.item p{
+    color: #ECF1E8;
+font-family: "Mrs Saint Delafield", Sans-serif;
+font-size: 42px;
+font-weight: normal;
+}
+
+
+.item h1{
+    color: #EBF0E8;
+font-family: "Playfair Display", Sans-serif;
+font-size: 46px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.items p{
+    color: #ECF1E8;
+font-family: "Mrs Saint Delafield", Sans-serif;
+font-size: 42px;
+font-weight: normal;
+}
+.item button{
+    height: 40px;
+    width: 150px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #D6B67A;
+    border: none;
+    color: #EBEFE8;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-weight: 400;
+}
+.items h1{
+    color: #EBF0E8;
+font-family: "Playfair Display", Sans-serif;
+font-size: 46px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.items2 button{
+    height: 40px;
+    width: 150px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #D6B67A;
+    border: none;
+    color: #EBEFE8;
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    
+
+
+}
+.items2 p{
+    color: #ECF1E8;
+    font-family: 'Mrs Saint Delafield', cursive;
+font-size: 42px;
+font-weight: normal;
+}
+.items2 h1{
+    color: #EBF0E8;
+font-family: "Playfair Display", Sans-serif;
+font-size: 46px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.items button{
+    height: 40px;
+    width: 150px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #D6B67A;
+    border: none;
+    color: #EBEFE8;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.icons i{
+    color: white;
+}
+.nav-link{
+    font-family: "Roboto", Sans-serif;
+font-size: 12px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #62A379;
+font-family: "Roboto", Sans-serif
+}
+.nav-link a{
+    text-decoration: none;
+    font-family: "Roboto", Sans-serif;
+   
+
+}
+.heading{
+   
+    background-color: #64A57B;
+   
+    height: 50px;
+   
+}
+.firsthead{
+   padding: 10px;
+}
+.firsthead a{
+    text-decoration: none;
+    color: #64A57B;
+
+}
+.secondhead{
+    padding: 45px;
+    margin-top: 15px;
+
+}
+.secondhead a{
+    color: #62A379;
+    font-family: "Roboto", Sans-serif;
+}
+.nav-bar{
+    background-color: white;
+    height: 140px;
+}
+.contact{
+    padding: .5rem 1rem;
+    font-family: "Roboto", Sans-serif;
+font-size: 12px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-decoration: none;
+}
+.contact a{
+    text-decoration: none;
+    color: #62A379;
+}
+.icons i{
+    padding: 7px;
+}
+.hero{
+    
+     /* background-image: url("../images/background/lady.jpg");  */
+    background-size: 100% 100%;
+}
+.item{
+    /* background-image: url("../images/background/florist-in-flower-shopfirst.jpg");  */
+    background-image:
+    linear-gradient(to bottom, rgba(100, 165, 123, 0.52), rgba(100, 165, 123, 0.73)),
+    url('../images/background/florist-in-flower-shopfirst.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+}
+.items{
+    background-image: url("../images/background/florist-writing-in-planner.jpg"); 
+    background-image:
+    linear-gradient(to bottom, rgba(100, 165, 123, 0.52), rgba(100, 165, 123, 0.73)),
+    url('../images/background/florist-writing-in-planner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+}
+.items2{
+    background-image:
+    linear-gradient(to bottom, rgba(100, 165, 123, 0.52), rgba(100, 165, 123, 0.73)),
+    url('../images/background/lady4.jpg');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+}
+    
+
+
+.onechild img{
+    width:100% ;
+}
+.onechild{
+  border: solid;
+  border-radius: 100%;
+  background-color: white;
+  
+}
+
+.tree img{
+    width: 100%;
+}
+.jasmin img{
+    width: 150px;
+}
+.lady1{
+    background-image: url("../images/background/lady2.jpg");
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(100, 165, 123, 0.73)),
+    url('../images/background/lady2.jpg');
+    background-size: 100% 100%;
+    height: 250px;
+
+}
+
+.lady2{
+    /* background-image: url("../images/background/lady3.jpg"); */
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(100, 165, 123, 0.73)),
+    url('../images/background/lady3.jpg');
+    
+    background-size: 100% 100%;
+    height: 250px;
+
+}
+.navbar{
+    height: 100px;
+}
+.lady3{
+
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(100, 165, 123, 0.73)),
+    url('../images/background/lady4.jpg');
+    background-size: 100% 100%;
+    height: 250px;
+}
+.leaves{
+    height: 300px;
+    background-image: url("../images/background/monstera-plant.jpg");
+    background-size: 100% 100%;
+}
+.flower{
+    background-image: url("../images/background/blossom\,jpg.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+}
+.cutting{
+    background-image: url("../images/background/cutting-.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.firstlo{
+    color: #979494;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;;
+    
+
+}
+.margin h1{
+    color: #5FA076;
+font-family: "Playfair Display", Sans-serif;
+font-size: 36px;
+font-weight: 600;
+    
+
+}
+.line1{
+    height: 1px;
+    width: 100px;
+    background-color:#5FA076;
+    
+}
+.margin i{
+    color:#818a91;
+    font-size: 19px;
+}
+
+ .margin .secondlo{
+    color: #969595;
+font-family: "Roboto", Sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 1.5;
+width: 90%;
+
+
+}
+.borders{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #62A379;
+    box-shadow: 0px 0px 21px -5px rgba(19.00000000000007, 163, 1.9999999999999885, 0.25);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    /* margin: 0px 15px 0px 0px; */
+    background-color: white;
+    border-radius: 10px;
+}
+.img img{
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 0px 15px 25px -15px rgba(6.000000000000051, 101.00000000000001, 0, 0.18);
+}
+.borders h4{
+    color: #629F77;
+font-family: "Playfair Display", Sans-serif;
+font-size: 1.1em;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 1em;
+letter-spacing: 1.35px;
+}
+.borders p{
+    color: #919090;
+font-family: "Roboto", Sans-serif;
+font-size: 14px;
+font-weight: 400;
+text-transform: none;
+line-height: 1.4em;
+}
+.Collection{
+   
+        background-color:#EAF0E6;
+        padding-bottom: 60px;
+        
+    }
+    .line2{
+        padding: 17px 0px 17px 17px;
+border-style: solid;
+border-width: 1px 0px 1px 0px;
+border-color: #E5E5E5;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+    }
+    .line2 i{
+        width: 1em;
+height: 1em;
+position: relative;
+display: inline-block;
+font-weight: 900;
+font-size: 27px;
+color: #67A57D;
+}
+.line2 a{
+    font-family: "Roboto", Sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 1em;
+letter-spacing: 0.7px;
+text-decoration: none;
+color: #9a9797;
+text-transform: capitalize;
+margin-left: 15px;
+}
+.garden h1{
+    color: #68AB80;
+font-family: "Playfair Display", Sans-serif;
+font-size: 24px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.garden p{
+   color: #969494;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.5em;
+    letter-spacing: 0.3px;
+}
+
+.garden button{
+    
+        height: 40px;
+        width: 150px;
+        font-family: "Roboto", Sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        letter-spacing: 1px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #6BAB81;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #67AD80;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: 0px 15px 25px -15px rgba(1.999999999999993, 104, 5.999999999999979, 0.5);
+        }
+        
+   .jasmin p{
+    color: #5AAD70;
+    font-family: "Lora", Sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-family: 'Lora', serif;
+
+   }
+
+    .mega h2{
+        color: #E3E9DF;
+font-family: "Playfair Display", Sans-serif;
+font-size: 18px;
+font-weight: 600;
+
+    }
+    .mega p{
+        color: #EDF0EB;
+font-family: "Roboto", Sans-serif;
+font-size: 14px;
+font-weight: normal;
+    }
+    .made h2{
+        color: #64A57B;
+font-family: "Playfair Display", Sans-serif;
+font-size: 26px;
+font-weight: 500;
+    }
+    .made p{
+        color: #979797;
+font-family: "Roboto", Sans-serif;
+font-weight: normal;
+    }
+    .made button{
+        height: 40px;
+    width: 150px;
+    font-family: "Roboto", Sans-serif;
+font-size: 12px;
+font-weight: 500;
+text-transform: uppercase;
+line-height: 1.2em;
+letter-spacing: 1px;
+fill: #F1F7EE;
+color: #F3F9EF;
+border-radius: 8px 8px 8px 8px;
+    background-color: #D6B67A;
+    border: none;
+    }
+
+    .gardenf{
+        background-color: #FFFFFF;
+        box-shadow: 0px 15px 25px -15px rgba(15.008230151228883, 149.24999999999997, 2.920108695652173, 0.29);
+transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+padding: 15px 15px 15px 15px;
+border-radius: 10px 10px 10px 10px;
+
+}
+    .gardenf i{
+        font-size: 50px;
+        color: #63A87B;
+    }
+    .gardenf h2{
+        font-family: "Playfair Display", Sans-serif;
+font-size: 20px;
+font-weight: 600;
+color: #69AE82;
+    }
+    .gardenf p{
+        color: #979797;
+font-family: "Roboto", Sans-serif;
+font-weight: normal;
+font-size: 1rem;
+    }
+    
+    .color2{
+        background-color:#EAF0E6;
+      
+      
+    
+
+    }
+    .leavesimg{
+        /* background-image: url("../images/background/monstera-plant.jpg"); */
+        background-image:
+        linear-gradient(to bottom, rgba(100, 165, 123, 0.52), rgba(100, 165, 123, 0.73)),
+        url('../images/background/monstera-plant.jpg');
+       
+        background-size: cover;
+        color: white;
+    }
+
+    .dot-line{
+        height: 2px;
+        width: 15%;
+       border-color: white;
+        border: dotted;
+        border-radius: 20%;
+    }
+
+  .joy{
+    width: 60%;
+    
+     
+  }
+  .john img{
+    border-radius: 999px;
+    width: 50px;
+    height: 50px;
+   
+  }
+  .leavesimg h2{
+    color: #E7EEE2;
+    font-family: "Playfair Display", Sans-serif;
+    font-weight: 600;
+}
+  .leavesimg p{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+  }
+  .dow p{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #EFF7EA;
+    font-weight: 700;
+    margin: 0;
+  }
+  .dow span{
+      color: #DCBA7C;
+      font-style: normal;
+font-size: 14px;
+line-height: 1.5;
+font-weight: 400;
+
+font-family: "Roboto", Sans-serif;
+  }
+  .row1 img{
+    height: 55%;
+    width: 95%;
+    border-radius: 8px;
+  }
+  .row1{
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 15px 25px -15px rgba(124.00000000000001, 168.99999999999997, 121.99999999999999, 0.21);
+    background-color: #EAF0E6;
+    border-color: #FFFFFF;
+  }
+  .row1 a{
+    color: #64A57B;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    box-shadow: none;
+text-decoration: none;
+
+  }
+  .row1 span{
+    line-height: 1.3em;
+    font-size: 12px;
+    color: #adadad;
+    transition: 0.3s;
+  }
+  .row1 p{
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #777;
+    font-family:  "Roboto", Sans-serif;
+    width: 90%;
+  }
+  .color3{
+      background-color: #EAF0E6; ;
+  }
+  .color3 h2{
+    color: #65A77C;
+    font-family: "Playfair Display", Sans-serif;
+    font-weight: 600;
+  }
+  
+  .row1:hover {
+        background-color: #fff;
+  }
+    
+  .cutting{
+      /* background-image: url("../images/background/cutting-.jpg"); */
+      background-image:
+       linear-gradient(to bottom, rgba(100, 165, 123, 0.52), rgba(100, 165, 123, 0.73)),
+      url('../images/background/cutting-.jpg');
+     background-size: cover;
+  
+     background-position: bottom center;
+     background-size: cover;
+     /* opacity: 0.4; */
+     background-color: ;
+   
+ }
+ .cutting p{
+    color: #E9EEE6;
+    font-family: "Mrs Saint Delafield", Sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+ }
+ .cutting h2{
+    color: #E5EAE1;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+ }
+
+
+      
+
+  .cutting button{
+
+    height: 40px;
+    width: 150px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+
+    color: #E9EFE5;
+    border-color: #fff;
+  
+    background: transparent;
+    border-radius: 10px;
+}
+
+
+  .cutting button:hover{
+      background-color: #64A57B;
+  }
+  .footer img{
+    max-width: 34%;
+  }
+  .footer p{
+    color: #989898;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
+  }
+  .icontain {
+      height: 30px;
+      width: 30px;
+      border-radius: 90%;
+      background-color:#D6B67A;
+      color: #fff;
+      margin: 5px;
+  }
+  .icontain i{
+      color: #fff;
+  }
+  .footer2 i{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 20px;
+font-weight: 500;
+text-transform: none;
+letter-spacing: 0px;
+fill: #65A37B;
+color: #64A97D;
+    
+  }
+  .imgi i{
+    font-size: 20px;
+     color: #64A97D;
+  }
+    
+  .imgl a{
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0px;
+    fill: #65A37B;
+    color: #64A97D;
+  }
+  .imgj a{
+    color: #989898;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+  }
+  .footer4 span{
+    color: #969696;;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
+  }
+  .footerlast i{
+    color: #67AB7F;
+    font-size: 16px;
+
+  }
+  .footerlast span{
+    color: #969595;
+    padding-left: 11px;
+    font-family: "Roboto", Sans-serif;
+font-size: 14px;
+font-weight: normal;
+  }
+  .manage1{
+      width: 65%;
+  }
+ .newf i{
+    font-size: 20px;
+  
+  
+   
+    color: #619F77;
+
+ }
+ .footer a{
+     text-decoration: none;
+ }
+ .footer{
+     background-color:#E9EFE5 ;
+     
+ }
+@media  (min-width: 994px){
+    .item{
+        height: 700px;
+    }
+    .items{
+        height: 700px;
+    }
+    .items2{
+        height: 700px;
+    }
+    .margin{
+        padding-top: 30px;
+    }
+    .firsthead{
+        padding: 30px;
+     }
+
+     .manage{
+         width: 75%;
+     }
+     .Collection{
+    
+         background-color:#EAF0E6;
+         padding-bottom: 60px;
+     }
+
+     .leavesimg{
+         height: 400px;;
+     }
+     
+.width1{
+    width: 80%;
+}
+     /* .margin{
+         height: 700px;
+        
+     } */
+     .last{
+         width: 80%;
+     }
+}
+

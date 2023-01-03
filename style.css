@@ -1,0 +1,126 @@
+body{
+    height: 100%;
+    background-color: #100028;
+
+
+}
+.main p{
+    color: white;
+    text-align: center;
+	color: #C0D7DD; 
+	font-size: 30px;
+	font-family: 'Combo', cursive;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.main img{
+    width: 150px;
+}
+
+.primary-btn{
+    display: inline-block;
+font-size: 15px;
+background-color: transparent;
+font-family: "Play", sans-serif;
+font-weight: 700;
+padding: 14px 32px 12px;
+color: #ffffff;
+text-transform: uppercase;
+letter-spacing: 2px;
+position: relative;
+border: none;
+text-decoration: none;
+background-color: transparent;
+z-index: 1;
+}
+
+
+.primary-btn::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 40px;
+    border-left: 2px solid #00bfe7;
+border-top: 2px solid #00bfe7;
+    content: "";
+    z-index: -1;
+    -webkit-transition: all, 0.7s;
+    -o-transition: all, 0.7s;
+    transition: all, 0.7s;
+}
+.primary-btn:hover::before{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.primary-btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.primary-btn::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 40px;
+    border-right: 2px solid #00bfe7;
+    border-bottom: 2px solid #00bfe7;
+    content: "";
+    z-index: -1;
+    
+
+    
+}
+.primary-btn::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 40px;
+    border-left: 2px solid #00bfe7;
+border-top: 2px solid #00bfe7;
+    content: "";
+    z-index: -1;
+    -webkit-transition: all, 0.7s;
+    -o-transition: all, 0.7s;
+    transition: all, 0.7s;
+}
+.primary-btn:hover::before{
+    width: 100%;
+    height: 100%;
+    
+}
+.primary-btn:hover::after{
+    width: 100%;
+    height: 100%;
+    
+}
+.para img{
+    width: 50px;
+}
+.para p{
+    font-size: 30px;
+}
+.primary-btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.para{
+    margin-top: 30%;
+}
+
+@media  (min-width: 994px){
+    .para img{
+        height: 170px;
+        width: 140px;
+    }
+    .para{
+        margin-top: 40%;
+    }
+
+}

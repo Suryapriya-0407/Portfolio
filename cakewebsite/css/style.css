@@ -1,0 +1,1265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;  
+}
+input{
+    font-family: 'Noto Serif', serif;
+    transition: all 500ms ease; 
+}
+p{
+     font-family: 'Bodoni Moda', serif;  
+}
+.text2 span{
+     font-family: 'Bodoni Moda', serif; 
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+}
+.main
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+.nav{
+    display: flex;
+   margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+.img1 img{
+    height:40px;
+    width: 40%;
+}
+.icons{
+    display:inline-block;
+    margin-top: 25px;
+    margin-left: 30px;
+   
+}
+.icons i{
+    font-size: 1.2 em;
+    margin-left: 10px;
+   
+}
+.icons i:hover{
+    color: orange;
+}
+.img1  img{
+    width: 100%;
+     
+}
+.img1{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 50%;
+}
+.hero{
+    background-color: #FF9F1C;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.img2{
+    width: 100%;
+   text-align: center;
+    
+}
+.img2 img{
+    width: 80%;
+    margin-top: 10%;
+}
+.name{
+    padding-bottom: 10%;
+   
+}
+.name h1{
+    font-size: 3em;
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 10%;
+    color: white; 
+}
+.name p{
+    color: white;
+    width: 80%;
+   margin-left: 15%;
+    font-size: 1.2em;
+    margin-top: 10%;
+    font-family: 'Bodoni Moda', serif;
+}
+ .name  input{
+    width: 60%;
+    height: 50px;
+    margin-top: 10%;
+   
+    background-color: #FB5607;
+    border: none;
+    
+    color: white;
+    transition: all 500ms ease; 
+ }
+ input:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+  }
+ .button{
+
+    text-align: center;
+ }
+ 
+ .about{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+    
+     margin-top: 10%;
+ }
+ .lady{
+     width: 80%;
+     height: 200px;
+
+    
+     background-size: 100% 100%;
+     margin: a
+ }
+ .lady{
+     display: none;
+ }
+
+  
+  
+ .text h1{
+     font-size: 1.8em;
+     margin-top: 20px;
+     margin-left: 12%;
+ }
+ .space{
+     width: 15%;
+     height: 6px;
+     background-color:#e86b35;
+     margin-top: 20px;
+     margin-left: 12%;
+ }
+ .text p{
+     margin-top: 10%;
+     font-size: 1.2em;
+     width: 70%;
+     margin-left: 12%;
+     color: #7A7A7A;
+ }
+ .li-ui{
+     display: flex;
+     margin-top: 10%;
+  
+    
+ }
+ .firstlist{
+     margin-left: 10%;
+ }
+ .secondlist{
+    margin-left: 10%;
+ }
+  
+ li{
+    list-style-type:none;
+ }
+ li a{
+     text-decoration: none;
+     margin-top: 20px;
+     display: inline-block;
+     color: #7A7A7A;
+     font-family: 'Play', sans-serif;
+   
+     font-size: 1.2em;
+ }
+ li span{
+     margin-right: 5px;
+ }
+ .button1 input{
+     width: 60%;
+     height: 50px;
+     margin-top: 10%;
+     background-color: #FF9F1C;
+     border: none;
+     color: white;
+     padding-bottom: 5%;
+     transition: all 500ms ease; 
+     border: none;
+     padding-top: 15px;
+ }
+ input:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+  }
+ .para{
+     padding-bottom: 20px;
+ }
+ .button1{
+   margin-left: 10%;
+    
+ }
+ li i{
+     color:#333;
+ }
+ 
+   .heading h1{
+  text-align: center;
+  font-size: 2em;
+
+ }
+ .heading{
+     margin-top: 10%;
+ }
+ .section2{
+     height: 5px;
+     width: 15%;
+     background-color:#e86b35;
+     margin-left: 40%;
+     margin-top: 10%;
+ }
+ .middle{
+    
+     width: 100%;
+     background-color: #f8ebd9;
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+ } 
+ .bread{
+
+    width: 70%;
+    height: 350px;
+    
+   
+    margin-top: 20px;
+    background-color: white;
+ }
+ .bread img{
+     width: 100%;
+     height: 250px;
+     transition: 1s ease;
+     
+ }
+ .bread img:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    }
+
+ .bun
+ {
+width: 70%;
+    height: 350px;
+   background-color: white;
+    margin-top: 20px;
+ }
+ .bun img{
+    width: 100%;
+    height: 250px;
+    transition: 1s ease;
+}
+.bun img:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    }
+
+ .fruit-custord{
+
+    width: 70%;
+    height: 350px;
+   
+    background-color: white;
+  
+    margin-top: 20px;
+ }
+ .fruit-custord img{
+    width: 100%;
+    height: 250px;
+    transition: 1s ease;
+}
+.fruit-custord  img:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    }
+
+ .choclate{
+
+    width: 70%;
+    height: 350px;
+   
+    background-color: white;
+   
+    margin-top: 20px;
+   
+ }
+ .choclate  img:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    }
+
+ .choclate img{
+    width: 100%;
+    height: 250px;
+    transition: 1s ease;
+}
+.fsection a{
+    font-size: 1.5em;
+    display: block;
+    text-decoration: none;
+    /* color: #F45D14; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+   
+
+}
+
+
+
+.product2{
+    color: orange;
+}
+.product1{
+    background-color:  #f8ebd9;
+ 
+}
+.heading h1{
+    padding-top: 20px;
+}
+.fsection{
+    text-align: center;
+    margin-top: 20px;
+}
+.rupees{
+    color: #333;
+}
+.middle1{
+    display: flex;
+    flex-direction: column;
+  
+    
+
+}
+.offer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 10%;
+    
+    height: 500px;
+    align-items: center;
+    
+    
+    background: linear-gradient(360deg,rgba(19,71,77,0.9) ,rgba(19,71,77,0.9) ), url("../images/background/cake2.jpg") no-repeat ;
+    background-size: 100% 100%;
+} 
+.last3{
+       background: linear-gradient(360deg,rgba(19,71,77,0.9) ,rgba(19,71,77,0.9) ), url("../images/background/cake2.jpg") no-repeat ;
+       padding-bottom: 10%;
+}
+.middle2{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.para{
+    width: 90%;
+   margin-top: 15%;
+   padding-bottom: 15%;
+  
+    
+   background-color: white;
+   height: 400px;
+}
+.para input{
+    margin-top: 20px;
+}
+.para h2{
+    
+      font-size: 2em;
+      margin-left: 8%;
+      font-size: 2em;
+      margin-top: 20px;
+}
+ .section3{
+    height: 5px;
+    width: 15%;
+    background-color:#e86b35;
+    margin-left:8%;
+    margin-top: 10%;
+ }    
+
+   .para p{
+       width: 80%;
+       font-size: 1.2em;
+       margin-left: 8%;
+       margin-top: 10%;
+   }
+   .para{
+       margin-left: 5%;
+   }
+   .text2 h1{
+       text-align: center;
+       font-size: 2em;
+       margin-top: 10%;
+       color: #13474D;
+      
+   }
+   .text2 span{
+       display: block;
+       font-size: 1em; 
+       font-family: 'Roboto Condensed', sans-serif;
+   }
+   .section4{
+    height: 5px;
+    width: 15%;
+    background-color:#e86b35;
+   margin-left: 40%;
+   margin-top: 10%;
+   
+   }
+   .text2 p{
+       margin-top: 10%;
+       font-size: 1.2em;
+       width: 75%;
+       margin-left: 15%;
+       font-family: 'Roboto Condensed', sans-serif;
+       color: black;
+   }
+   .middle2{
+       display: flex;
+       flex-direction: column;
+       background-color:white;
+       width: 100%;
+       align-items: center;
+   }
+
+   .text2{
+     
+       width: 90%;
+       padding-bottom: 10%;
+      
+   }
+   .children{
+       height: 150px;
+       width: 90%;
+       background-image: url("../images/background/children.jpg");
+       background-size: 100% 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+   .playbutton i{
+       font-size: 2.2em;
+       color: white;
+   }
+
+   .last{
+       background-color:#f8ebd9 ;
+       display: flex;
+       flex-direction: column;
+       padding-top: 10%;
+       align-items: center;
+      
+   }
+   .first1{
+       width: 80%;
+   }
+
+   .first1 h1{
+       font-size: 2em;
+       
+
+
+   }
+   .section5{
+    height: 5px;
+    width: 20%;
+    background-color:#e86b35;
+   margin-left: 3%;
+   margin-top: 10%;
+
+   }
+   .first1 p{
+       margin-top: 10%;
+       width: 80%;
+       font-size: 1.2em;
+   }
+   .first2{
+       height: 400px;
+       width: 80%;
+     
+       margin-top: 10%;
+       background-color: white;
+       margin-bottom: 10%;
+
+   }
+   .first2 img{
+    height: 300px;
+    width: 100%;
+
+   }
+  
+   
+  .last2{
+      background-color: #FF9F1C;
+      width: 100%;
+  }
+  .section7{
+    height: 5px;
+    width: 15%;
+    background-color:#e86b35;
+   margin-left: 40%;
+   margin-top: 10%;
+
+  }
+  .client h1{
+      text-align: center;
+      font-size: 2em;
+    
+  }
+  .client{
+    padding-top: 10%;
+
+  }
+  .Mustache{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .stawberry{
+      background-color: white;
+      width: 80%;
+      margin-top: 10%;
+      padding-bottom: 10%;
+      padding-bottom: 15%;
+    
+     
+  }
+  .stawberry p{
+    font-size: 1.4em;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+  
+
+  }
+  .cakeimg{
+      width: 40%;
+      height: 80px;
+      border-radius: 100%;
+      margin: auto;
+      padding-top: 10%;
+      background-image: url("../images/background/cutecake.jpg");
+      background-size: 100% 100%;
+      margin-top: 15%;
+      transition: 1s ease;
+  }
+  .cakeimg:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    }
+  .anchor1 a{
+      display: block;
+      color: oran;
+  }
+  .anchor1 {
+      text-align: center;
+      margin-top: 10%;
+  }
+  .star{
+      text-align: center;
+      margin-top: 5%;
+  }
+  .star i{
+      color:#FB5607;
+  }
+  
+  .painapple{
+    background-color: white;
+    width: 80%;
+    margin-top: 10%;
+    padding-bottom: 15%;
+   
+   
+}
+.painapple p{
+  font-size: 1.4em;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+
+
+}
+.cakeimg2{
+    width: 40%;
+    height: 80px;
+    border-radius: 100%;
+    margin: auto;
+    padding-top: 10%;
+    background-image: url("../images/background/cutecake2.jpg");
+    background-size: 100% 100%;
+    margin-top: 15%;
+    transition: 1s ease;
+}
+.cakeimg2:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    }
+.painapple a{
+    display: block;
+}
+.anchor1 {
+    text-align: center;
+    margin-top: 10%;
+}
+.star{
+    text-align: center;
+    margin-top: 5%;
+}
+.star i{
+    color:#FB5607;
+}
+.last3{
+   
+    background: linear-gradient(360deg,rgba(19,71,77,0.9) ,rgba(19,71,77,0.9) ), url("../images/background/grane.jpg") no-repeat ;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.heading2 h1{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+}
+.button3 input{
+    width: 60%;
+    height: 50px;
+    margin-top: 10%;
+    margin-left: 20%;
+   
+    background-color: #FB5607;
+    border: none;
+    transition: all .3s;
+    color: white;
+    transition: all 500ms ease; 
+
+}
+
+    input:hover{
+        color: #ff7a59;
+        border: #ff7a59 solid 1px;
+        background:#fff;
+      }
+
+ .icons4{
+    display: none;
+} 
+.serch{
+    display: none;
+}
+.facebook{
+    display: none;
+}
+.twitter{
+    display: none;
+}
+.product{
+    background-color:  #f8ebd9;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.one img{
+    width: 70%;
+    margin-top: 10%;
+    margin-top: 10%;
+  
+    
+}
+.one{
+    padding-top: 10%;
+    text-align: center;
+}
+.one p{
+    width: 60%;
+    font-size: 1.2em;
+    margin-top: 20px;
+   margin-left: 20%;
+   color: #13474D;
+   
+}
+.three h2{
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #FB5607;
+}
+.four li a{
+    margin-top: 10px;
+    margin-left: 10px;
+   
+    color:#13474D ;
+}
+.footer p{
+    font-size: 1.2em;
+    margin-top: 10%;
+    color: grey;
+    margin-left: 10%;
+
+}
+.footer p:hover{
+    color:#13474D
+
+}
+.footer{
+    width: 100%;
+    margin: auto;
+   margin-top: 10%;
+   border-width: thin;
+    border-top: solid;
+    padding-bottom: 10px;
+    color: grey;
+    
+}
+.footer span{
+    margin-left: 30%;
+    font-size: 1em;
+    display: block;
+    margin-top: 10px;
+}
+.four li a:hover{
+    color: orange;
+}
+.six li a:hover{
+    color: orange;
+}
+.facebook{
+    display: none;
+}
+.icons4{
+    display: none;
+}
+
+
+@media (min-width:994px){
+
+
+.icons{
+    display: none;
+}
+.img1{
+    width: 15%;
+    height: 0px;
+    margin-left: 10%;
+    margin-top: 10px;
+    height: 40px;
+}   
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    /* margin-top: 10px; */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+  
+    
+
+}
+.icons4 li{
+    display: inline-block;
+     margin-left: 15px;
+     margin-top: 0;
+  
+
+}
+
+.icons4 a:hover{
+    color: orange;
+
+}
+.icons4{
+    display: inline-block;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+
+
+
+.serch{
+    display: inline-block;
+    height: 0;
+   
+  
+    /* margin-top: 3%; */
+}
+.img1{
+    margin-left: 0;
+}
+.serch i{
+   
+  
+    font-size: 20px;
+    color: black;
+}
+.serch i:hover{
+    color: orange;  
+}
+.fas{
+    margin-left: 20px;
+}
+.facebook{
+     display: flex;
+   height: 0;
+   width: 140px;
+    margin-left: 30px;
+    justify-content: space-evenly;
+ 
+   /* margin-top: 30px; */
+   
+ 
+}
+
+.facebook i:hover{
+    color: orange;
+
+}
+.facebook i{
+    font-size: 25px;
+    color: black;
+    
+}
+
+
+.hero{
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10%;
+    justify-content: space-evenly;
+}
+.hero img{
+    width: 75%;
+  
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+}
+ .about{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+    width: 80%;
+    padding-bottom: 10%;
+   
+} 
+.lady{
+   width: 40%;
+   height: 470px;
+   margin: 0;
+   margin-top: 5%;
+   margin-left: 10%;
+  
+}
+.text{
+    width: 60%;
+    margin-top: 5%;
+}
+.text p{
+    margin-top: 0;
+    width: 65%;
+    margin-top: 30px;
+}
+.li-ui{
+    margin-top: 0;
+    margin-top: 10px;
+}
+.heading{
+    margin-top: 0;
+}
+
+.middle{
+    display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+  justify-content: space-evenly;
+  margin: 0;
+
+}
+.bread{
+    width: 20%;
+}
+.bun{
+    width: 20%;
+}
+.fruit-custord{
+    width: 20%;
+}
+.choclate{
+    width: 20%;
+}
+
+  
+.new{
+    height: 500px;
+    width: 50%;
+    background-image: url("../images/background/cake3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 800px;
+   
+   
+}
+.container{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    
+}
+.para{
+    margin-top: 0;
+    width: 40%;
+    height: 500px;
+    padding-bottom: 0;
+    
+}
+.para input{
+    margin-top: 10%;
+}
+.new{
+    width: 50%;
+    height: 500px;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+    justify-content: space-evenly;
+    justify-content: center;
+    height: 600px;
+    padding-top: 0;
+}
+.first1{
+    width: 30%;
+    height: 400px;
+
+}
+.first2{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Mustache{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: orange;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 0;
+    margin-top: 5%;
+}
+.client h1{
+    padding-top: 5%;
+    margin-bottom: 20px;
+}
+.section7{
+    width: 3%;
+    margin: auto;
+
+}
+.stawberry{
+    width: 50%;
+    height: 350px;
+    margin-top: 0;
+}
+.stawberry p{
+    width: 85%;
+    margin-left: 10%;
+    
+  
+}
+.painapple p{
+    width: 85%;
+    margin-left: 10%;
+}
+
+.painapple{
+    width: 50%;
+    height: 350px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.cakeimg{
+    margin-top: 0;
+    width: 15%;
+    height: 20px;
+    margin-top: 10%;
+}
+.anchor1{
+    margin-top: 20px;
+}
+.cakeimg2{
+    margin-top: 0;
+    width: 15%;
+    height: 20px;
+    margin-top: 10%;
+}
+.star i{
+    margin-left: 0;
+}
+.client{
+    padding-top: 0;
+}
+.section7{
+    margin-top: 0;
+}
+.last3 {
+     display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding-bottom: 0;
+
+     
+}
+.name{
+   
+    width: 40%;
+    margin-top: 10%;
+   
+}
+.name h1{
+    margin-left: 30%;
+}
+.name p{
+    font-size: 1.6em;
+    margin-left: 30%;
+    width: 75%;
+}
+.name input{
+    width: 30%;
+    margin-left: 10%;
+
+}
+.img2{
+    width: 40%;
+}
+.text2{
+    padding-bottom: 0;
+}
+.text2 h1{
+    margin-top: 0;
+    margin-top: 10%;
+}
+.section4{
+    margin-top: 0;
+    width: 5%;
+    margin: auto;
+    margin-top: 20px;
+}
+.text2 p{
+    margin-top: 0;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 20%;
+
+}
+
+.children{
+    height: 600px;
+    width: 65%;
+    margin-top: 20px;
+    margin-left: 6%;
+}
+.middle2{
+    height: 1000px;
+}
+.text2 span{
+    display: inline-block;
+}
+.text2  p span{
+    margin-left: 10%;
+
+}
+.playbutton i{
+    font-size: 7em;
+}
+.last2{
+    height: 800px;
+    background-color: orange;
+}
+.last3{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+   
+  
+
+}
+
+.heading2 {
+    margin-left: 20%;
+    width: 70%;
+}
+.heading2 h1{
+    font-size: 3em;
+    margin-top: 0;
+}
+.button3 {
+    width: 70%;
+    margin-left: 10%;
+   
+
+}
+.button3 input{
+    width: 45%;
+    margin-top: 10px;
+}
+.section2{
+    margin-top: 0;
+   
+   width: 5%;
+   margin: auto;
+}
+.product{
+    height: 600px;
+}
+.heading h1{
+  padding-top: 5%;
+  margin-bottom: 20px;
+}
+.button1 input{
+    padding: 0;
+    width: 60%;
+}
+.product1{
+    height: 600px;
+}
+.first1{
+    width: 25%;
+    margin-top: 5%;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: 400px;
+}
+.one img{
+    width: 40%;
+    margin-top: 0;
+    margin-right: 30%
+   
+}
+.one{
+    padding-top: 0;
+    margin-top: 30px;
+    width: 50%;
+  
+
+  
+}
+.offer {
+    padding-bottom: 0;
+}
+.one p{
+    width: 50%;
+    margin-left: 15%;
+}
+.six {
+    margin-left: 10%;
+}
+.four li a:hover{
+    color: orange;
+}
+.six li a:hover{
+    color: orange;
+}
+
+.footer {
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer span{
+    display: inline-block;
+    margin-left: 0;
+  
+}
+.footer p{
+    margin-top: 20px;
+    margin-left: 0;
+}
+.lady img{
+    transition: 1s ease; 
+    width: 100%;
+
+}
+.lady{
+    display: inline-block;
+}
+
+ }
+ .lady img:hover{
+ -webkit-transform: scale(0.8);
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+   transition: 1s ease; 
+   }
+
+.copy{
+    text-align: center;
+}
+
+
+
+
